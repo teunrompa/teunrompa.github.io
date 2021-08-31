@@ -1,0 +1,39 @@
+*{
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.title-header{
+    background-color: rgb(87, 255, 129);
+    padding: 20px;
+}
+
+.title-header h1{
+    text-align: center;
+}
+
+.task-tab-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.task-tab-wrapper .task-container{
+    border: 3px solid black;
+    border-radius: 10px ;
+    padding: 10px 50px 500px 50px ;
+}
+
+.task-list ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+.single-task{
+    border: 3px solid black;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+}
